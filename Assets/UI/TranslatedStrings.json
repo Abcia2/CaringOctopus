@@ -1,0 +1,194 @@
+{
+    "Welcome": {
+        "En": "Welcome",
+        "It": "Benvenut*"
+    },
+    "Options": {
+        "En": "Options",
+        "It": "Impostazioni"
+    },
+    "TapToContinue": {
+        "En": "Tap to continue",
+        "It": "Tocca per contiuare"
+    },
+    "WhatsName": {
+        "En": "What's your name?",
+        "It": "Come ti chiami?"
+    },
+    "Continue": {
+        "En": "Continue",
+        "It": "Continua"
+    },
+    "CustomizeYourOctopus": {
+        "En": "Customize your octopus",
+        "It": "Personalizza il tuo polpo"
+    },
+    "ChooseNameAndColor": {
+        "En": "Choose its name and color",
+        "It": "Scegli i suo nome e il colore"
+    },
+    "HowDoYouFeel": {
+        "En": "How do you feel?",
+        "It": "Come ti senti?"
+    },
+    "HowDidYouFeel": {
+        "En": "How did you feel?",
+        "It": "Come ti sentivi?"
+    },
+    "WriteFirstDiary": {
+        "En": "Write your first diary page",
+        "It": "Scrivi la prima pagina del tuo diaro"
+    },
+    "Date": {
+        "En": "Date",
+        "It": "Data"
+    },
+    "Place": {
+        "En": "Place",
+        "It": "Luogo"
+    },
+    "SetupCompleted": {
+        "En": "Setup completed",
+        "It": "Tutto completato"
+    },
+    "TouchToType": {
+        "En": "Touch to start typing",
+        "It": "Tocca per scrivere"
+    },
+    "Title": {
+        "En": "Title",
+        "It": "Titolo"
+    },
+    "Skip": {
+        "En": "Skip",
+        "It": "Salta"
+    },
+    "Greetings": {
+        "Morning": {
+            "En": "Goodmorning ",
+            "It": "Buongionro "
+        },
+        "Day": {
+            "En": "Good to see you ",
+            "It": "È bello vederti "
+        },
+        "Evening": {
+            "En": "Good evening ",
+            "It": "Buonasera "
+        },
+        "Night": {
+            "En": "Goodnight ",
+            "It": "Buonanotte "
+        }
+    },
+    "BreathingExercise": {
+        "En": "Breathing exercise",
+        "It": "Esercizi di respirazione"
+    },
+    "Back": {
+        "En": "Back",
+        "It": "Indietro"
+    },
+    "BreathingInstructions": {
+        "Inhale": {
+            "En": "Inhale",
+            "It": "Inspira"
+        },
+        "Hold": {
+            "En": "Hold",
+            "It": "Trattieni"
+        },
+        "Exhale": {
+            "En": "Exhale",
+            "It": "Espira"
+        }
+    },
+    "Save": {
+        "En": "Save",
+        "It": "Salva"
+    },
+    "Clear": {
+        "En": "Clear",
+        "It": "Cancella"
+    },
+    "Warning": {
+        "En": "Warning",
+        "It": "Attenzione"
+    },
+    "ExitWithoutSaving": {
+        "En": "Exit without saving?",
+        "It": "Uscire senza salvare?"
+    },
+    "Yes": {
+        "En": "Yes",
+        "It": "Sì"
+    },
+    "No": {
+        "En": "No",
+        "It": "No"
+    },
+    "ClearPage": {
+        "En": "Clear current page?",
+        "It": "Cancellare la pagina attuale?"
+    },
+    "EditDay": {
+        "En": "Edit day",
+        "It": "Modifica Giorno"
+    },
+    "Edit": {
+        "En": "Edit",
+        "It": "Modifica"
+    },
+    "Mood": {
+        "En": "Mood",
+        "It": "Stato d'animo"
+    },
+    "Notes": {
+        "En": "Notes",
+        "It": "Note"
+    },
+    "Color": {
+        "En": "Color",
+        "It": "Colore"
+    },
+    "Language": {
+        "En": "Language",
+        "It": "Lingua"
+    },
+    "OctopusName": {
+        "En": "Octopus' name",
+        "It": "Nome del polpo"
+    },
+    "YourName": {
+        "En": "Your name",
+        "It": "Il tuo nome"
+    },
+    "HappyMeditation": {
+        "En": "Have a good meditation session ",
+        "It": "Buona sessione di meditazione "
+    },
+    "BGM": {
+        "En": "Background music ",
+        "It": "Musica di sottofondo "
+    },
+    "LongestSession": {
+        "En": "Longest session: ",
+        "It": "Sessione più lunga: "
+    },
+    "Meditation": {
+        "En": "Meditation",
+        "It": "Meditazione"
+    },
+    "Confirm": {
+        "En": "Confirm",
+        "It": "Conferma"
+    },
+    "Resources": {
+        "En": "Resources",
+        "It": "Risorse"
+    },
+    "ResourcesLinks": {
+        "En": "https://www.mentalhealth.org.uk/explore-mental-health/publications/our-best-mental-health-tips",
+        "It": "https://www.my-personaltrainer.it/salute/salute-mentale-perche-e-importante.html"
+    }
+}

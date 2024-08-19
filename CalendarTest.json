@@ -19,9 +19,9 @@
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
     "useExternalSourceFiles": false,
-    "version": "1.01.Abcia2",
+    "version": "1.20.Abcia2",
     "name": "Caring Octopus",
-    "description": "",
+    "description": "🐙Your Personal Mental Health Companion❤️\n\nDive into a world of tranquility with Caring Octopus, the ultimate app designed to support your mental well-being. Whether you’re looking to track your mood, maintain a daily diary, or find peace through guided breathing exercises, Caring Octopus has got you covered.\n\nFeatures:\n✨Diary: Keep a personal journal to reflect on your thoughts and feelings.\n✨Mood Tracker: Monitor your emotional journey and identify patterns over time.\n✨Breathing Exercises: Reduce anxiety with guided breathing techniques.\n✨Meditation Timer: Enhance your meditation practice with customizable timers and soothing ambient sounds.\n✨Helpful Resources: Access a wealth of information and tools to support your mental health.\n\nPersonalization:\n❤️Customize the colors to suit your mood.\n❤️Name your octopus friend and make it truly yours.\n\nLet Caring Octopus be your gentle guide towards a calmer, happier you. Download now and start your journey to better mental health!",
     "author": "Abcia2",
     "windowWidth": 1080,
     "windowHeight": 1920,
@@ -57,7 +57,7 @@
       "ios-icon-76": "ios-icon-76.png",
       "ios-icon-80": "ios-icon-80.png",
       "ios-icon-87": "ios-icon-87.png",
-      "liluo-thumbnail": ""
+      "liluo-thumbnail": "Assets\\UI\\Banner.jpg"
     },
     "loadingScreen": {
       "backgroundColor": 10046975,
@@ -2555,6 +2555,81 @@
         "name": "ios-icon-20.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Plastic Green Round Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Border.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/308609c5db4c7f741d0ea6ce46b7245524c9e48682f23c670ec81ea08f5917e5_Small Plastic Green Round Slider Border.png",
+          "name": "Small Plastic Green Round Slider Border.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Transparent.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+          "name": "Transparent.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Small Plastic Green Round Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Small Plastic Green Round Slider Thumb.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/f1fe4aaaa4d6da59e2bf6b9411de1f013b5d86c5cacda01f99226c78f427f606_Small Plastic Green Round Slider Thumb.png",
+          "name": "Small Plastic Green Round Slider Thumb.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/SliderThumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\SliderThumb.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/SliderBg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\SliderBg.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Transparent.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\Transparent.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Assets/UI/Banner.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "Assets\\UI\\Banner.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -6140,7 +6215,6 @@
       "type": "structure",
       "children": [
         {
-          "folded": true,
           "name": "CalendarSaves",
           "type": "structure",
           "children": [
@@ -6182,17 +6256,7 @@
                                     {
                                       "name": "Sleep",
                                       "type": "number",
-                                      "value": 0
-                                    },
-                                    {
-                                      "name": "SleepEnd",
-                                      "type": "number",
-                                      "value": 0
-                                    },
-                                    {
-                                      "name": "SleepStart",
-                                      "type": "number",
-                                      "value": 0
+                                      "value": 8
                                     },
                                     {
                                       "name": "Title",
@@ -15334,7 +15398,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1104807816501871,
+        "zoomFactor": 0.06944547167664798,
         "windowMask": false
       },
       "objectsGroups": [
@@ -15448,6 +15512,18 @@
             },
             {
               "name": "MeditationText"
+            },
+            {
+              "name": "SleepHoursTitle"
+            },
+            {
+              "name": "SleepHoursNumber"
+            },
+            {
+              "name": "SleepHoursButtonPlus"
+            },
+            {
+              "name": "SleepHoursButtonMinus"
             }
           ]
         },
@@ -15650,6 +15726,9 @@
             },
             {
               "name": "ResourcesText"
+            },
+            {
+              "name": "SleepHoursTitle"
             }
           ]
         },
@@ -15939,6 +16018,68 @@
           "name": "CurrentMenu",
           "type": "string",
           "value": "Main"
+        },
+        {
+          "name": "SleepHours",
+          "type": "array",
+          "children": [
+            {
+              "type": "string",
+              "value": "01-"
+            },
+            {
+              "type": "string",
+              "value": "01"
+            },
+            {
+              "type": "string",
+              "value": "02"
+            },
+            {
+              "type": "string",
+              "value": "03"
+            },
+            {
+              "type": "string",
+              "value": "04"
+            },
+            {
+              "type": "string",
+              "value": "05"
+            },
+            {
+              "type": "string",
+              "value": "06"
+            },
+            {
+              "type": "string",
+              "value": "07"
+            },
+            {
+              "type": "string",
+              "value": "08"
+            },
+            {
+              "type": "string",
+              "value": "09"
+            },
+            {
+              "type": "string",
+              "value": "10"
+            },
+            {
+              "type": "string",
+              "value": "11"
+            },
+            {
+              "type": "string",
+              "value": "12"
+            },
+            {
+              "type": "string",
+              "value": "12+"
+            }
+          ]
         }
       ],
       "instances": [
@@ -19557,7 +19698,7 @@
           "persistentUuid": "14e315cd-652b-4652-a3ef-4dc0a9806584",
           "width": 88,
           "x": 133,
-          "y": -4400,
+          "y": -4517,
           "zOrder": 101,
           "numberProperties": [],
           "stringProperties": [],
@@ -19589,7 +19730,7 @@
           "persistentUuid": "32c2fa8e-9e5e-4468-b688-95e68a9770f8",
           "width": 1016,
           "x": 64,
-          "y": -5417,
+          "y": -5379,
           "zOrder": 103,
           "numberProperties": [],
           "stringProperties": [],
@@ -19606,7 +19747,7 @@
           "persistentUuid": "5d5b1f57-b501-4bfb-8fe9-e8691893de4a",
           "width": 206,
           "x": 71,
-          "y": -5245,
+          "y": -5207,
           "zOrder": 104,
           "numberProperties": [],
           "stringProperties": [],
@@ -19630,7 +19771,7 @@
           "persistentUuid": "095ce064-d478-470e-b4ad-1121e198c99f",
           "width": 525,
           "x": 300,
-          "y": -5183,
+          "y": -5145,
           "zOrder": 106,
           "numberProperties": [],
           "stringProperties": [],
@@ -19646,7 +19787,7 @@
           "persistentUuid": "efcd16ad-fbf6-4319-a007-9796dbd7ec55",
           "width": 0,
           "x": 834,
-          "y": -5224,
+          "y": -5186,
           "zOrder": 107,
           "numberProperties": [],
           "stringProperties": [],
@@ -19679,7 +19820,7 @@
           "persistentUuid": "852ebb95-ffd4-4fe1-a1b7-f346b459f352",
           "width": 957,
           "x": 60,
-          "y": -4996,
+          "y": -4958,
           "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
@@ -19728,7 +19869,7 @@
           "persistentUuid": "4facfca5-a575-476c-9cda-9d2a66be8985",
           "width": 702,
           "x": 240,
-          "y": -4396,
+          "y": -4513,
           "zOrder": 110,
           "numberProperties": [],
           "stringProperties": [],
@@ -19738,14 +19879,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 370,
+          "height": 409,
           "keepRatio": true,
           "layer": "UI",
           "name": "DayNotes",
           "persistentUuid": "0bba346a-a6ba-4a3d-89e9-9222ac9fa7f6",
           "width": 927,
           "x": 67,
-          "y": -4281,
+          "y": -4381,
           "zOrder": 111,
           "numberProperties": [],
           "stringProperties": [],
@@ -19762,7 +19903,7 @@
           "persistentUuid": "2e9599de-1c2a-4034-810c-c12e5177ee3c",
           "width": 825,
           "x": 122,
-          "y": -4307,
+          "y": -4424,
           "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
@@ -19779,7 +19920,7 @@
           "persistentUuid": "c6368722-3a7c-48ce-9973-46cc578ed3af",
           "width": 957,
           "x": 60,
-          "y": -4459,
+          "y": -4564,
           "zOrder": 108,
           "numberProperties": [],
           "stringProperties": [],
@@ -19796,7 +19937,7 @@
           "persistentUuid": "480eccd8-33fd-4539-81f1-8ecc141f1d9d",
           "width": 121,
           "x": 864,
-          "y": -5418,
+          "y": -5380,
           "zOrder": 112,
           "numberProperties": [],
           "stringProperties": [],
@@ -20120,6 +20261,72 @@
           "x": 559,
           "y": 1002,
           "zOrder": 128,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 110,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "SleepHoursTitle",
+          "persistentUuid": "140af274-7562-4193-bcb6-8a0e7b1a789a",
+          "width": 949,
+          "x": 65,
+          "y": -4901,
+          "zOrder": 129,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 126,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "SleepHoursNumber",
+          "persistentUuid": "a6df0661-87ae-4694-8430-66bc7ff8687e",
+          "width": 948,
+          "x": 64,
+          "y": -4747,
+          "zOrder": 130,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "SleepHoursButtonPlus",
+          "persistentUuid": "cef9caf8-bcc6-427f-89ee-7e1ed523ca1b",
+          "width": 0,
+          "x": 729,
+          "y": -4790,
+          "zOrder": 131,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "SleepHoursButtonMinus",
+          "persistentUuid": "31e7efac-7934-4ae7-8bb0-c0cf41bf008b",
+          "width": 0,
+          "x": 257,
+          "y": -4781,
+          "zOrder": 132,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30860,6 +31067,337 @@
             "characterSize": 60,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "SleepHoursTitle",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "String",
+              "type": "string",
+              "value": "SleepHours"
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "Sleep Hours",
+          "font": "Assets\\UI\\The Sunday.otf",
+          "textAlignment": "center",
+          "characterSize": 90,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Sleep Hours",
+            "font": "Assets\\UI\\The Sunday.otf",
+            "textAlignment": "center",
+            "characterSize": 90,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "areaMaxX": 64,
+          "areaMaxY": 64,
+          "areaMaxZ": 64,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreId": "05b0eb2d13ff37b70927d0184d4705e9c39c0b8fece7463127c4fe9eb65bb422",
+          "name": "SmallPlasticGreenRoundSlider",
+          "type": "PanelSpriteSlider::PanelSpriteSlider",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LabelMargin": 8,
+            "BarLeftPadding": 31,
+            "BarRightPadding": 31
+          },
+          "childrenContent": {
+            "Background": {
+              "bottomMargin": 31,
+              "height": 63,
+              "leftMargin": 31,
+              "rightMargin": 31,
+              "texture": "Assets\\UI\\SliderBg.png",
+              "tiled": false,
+              "topMargin": 31,
+              "width": 583
+            },
+            "FillBar": {
+              "bottomMargin": 0,
+              "height": 16,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Assets\\UI\\Transparent.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 16
+            },
+            "Label": {
+              "bold": false,
+              "italic": false,
+              "smoothed": true,
+              "underlined": false,
+              "string": "It displays the value when it changes.",
+              "font": "",
+              "textAlignment": "",
+              "characterSize": 20,
+              "color": {
+                "b": 221,
+                "g": 221,
+                "r": 221
+              },
+              "content": {
+                "bold": false,
+                "isOutlineEnabled": false,
+                "isShadowEnabled": false,
+                "italic": false,
+                "outlineColor": "255;255;255",
+                "outlineThickness": 2,
+                "shadowAngle": 90,
+                "shadowBlurRadius": 2,
+                "shadowColor": "0;0;0",
+                "shadowDistance": 4,
+                "shadowOpacity": 127,
+                "smoothed": true,
+                "underlined": false,
+                "text": "It displays the value when it changes.",
+                "font": "",
+                "textAlignment": "",
+                "characterSize": 20,
+                "color": "221;221;221"
+              }
+            },
+            "Thumb": {
+              "bottomMargin": 0,
+              "height": 80,
+              "leftMargin": 0,
+              "rightMargin": 0,
+              "texture": "Assets\\UI\\SliderThumb.png",
+              "tiled": false,
+              "topMargin": 0,
+              "width": 86
+            }
+          },
+          "instances": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "SleepHoursNumber",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "String",
+              "type": "string",
+              "value": "SleepHours"
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "string": "08",
+          "font": "Assets\\UI\\The Sunday.otf",
+          "textAlignment": "center",
+          "characterSize": 120,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "08",
+            "font": "Assets\\UI\\The Sunday.otf",
+            "textAlignment": "center",
+            "characterSize": 120,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "SleepHoursButtonPlus",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "String",
+              "type": "string",
+              "value": "SleepHours"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "string": "+",
+          "font": "Assets\\UI\\The Sunday.otf",
+          "textAlignment": "center",
+          "characterSize": 180,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "+",
+            "font": "Assets\\UI\\The Sunday.otf",
+            "textAlignment": "center",
+            "characterSize": 180,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "SleepHoursButtonMinus",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "String",
+              "type": "string",
+              "value": "SleepHours"
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ButtonFSM",
+              "type": "ButtonStates::ButtonFSM",
+              "ShouldCheckHovering": true,
+              "State": "Idle",
+              "TouchId": 0,
+              "TouchIsInside": false,
+              "MouseIsInside": false,
+              "Index": 2.0247e-320
+            }
+          ],
+          "string": "-",
+          "font": "Assets\\UI\\The Sunday.otf",
+          "textAlignment": "center",
+          "characterSize": 180,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "-",
+            "font": "Assets\\UI\\The Sunday.otf",
+            "textAlignment": "center",
+            "characterSize": 180,
+            "color": "0;0;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -30983,6 +31521,18 @@
                 "objectName": "UpdateDay1"
               },
               {
+                "objectName": "SleepHoursTitle"
+              },
+              {
+                "objectName": "SleepHoursNumber"
+              },
+              {
+                "objectName": "SleepHoursButtonPlus"
+              },
+              {
+                "objectName": "SleepHoursButtonMinus"
+              },
+              {
                 "objectName": "SaveDayUpdateButton"
               },
               {
@@ -30996,6 +31546,9 @@
               },
               {
                 "objectName": "DayMonthTextUpdateDay"
+              },
+              {
+                "objectName": "SmallPlasticGreenRoundSlider"
               }
             ]
           },
@@ -31196,7 +31749,6 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -31451,6 +32003,33 @@
                     "value": "AdMob::ShowBanner"
                   },
                   "parameters": []
+                },
+                {
+                  "type": {
+                    "value": "PreloadMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\Sounds\\uplifting-pad-texture-113842.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\Sounds\\river_flowing-water_nature-sound-146833.mp3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PreloadMusic"
+                  },
+                  "parameters": [
+                    "",
+                    "Assets\\Sounds\\beautiful-morning-with-birds-chanting-208999.mp3"
+                  ]
                 }
               ],
               "events": [
@@ -32644,6 +33223,7 @@
           "colorG": 205,
           "colorR": 250,
           "creationTime": 0,
+          "folded": true,
           "name": "MainMenu",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35148,7 +35728,6 @@
           "colorG": 76,
           "colorR": 87,
           "creationTime": 0,
-          "folded": true,
           "name": "EditDay",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35167,7 +35746,19 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "SleepHoursNumber",
+                    "Text",
+                    "=",
+                    "SleepHours[UserData.CalendarSaves.Year[Calendar.Selected.Year].Month[Calendar.Selected.Month].Day[Calendar.Selected.Day].Sleep]"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -35387,6 +35978,119 @@
                   "conditions": [
                     {
                       "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UserData.CalendarSaves.Year[Calendar.Selected.Year].Month[Calendar.Selected.Month].Day[Calendar.Selected.Day].Sleep",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonMinus"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonPlus",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UserData.CalendarSaves.Year[Calendar.Selected.Year].Month[Calendar.Selected.Month].Day[Calendar.Selected.Day].Sleep",
+                        ">",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UserData.CalendarSaves.Year[Calendar.Selected.Year].Month[Calendar.Selected.Month].Day[Calendar.Selected.Day].Sleep",
+                        "<",
+                        "13"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonPlus",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonMinus",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "UserData.CalendarSaves.Year[Calendar.Selected.Year].Month[Calendar.Selected.Month].Day[Calendar.Selected.Day].Sleep",
+                        ">=",
+                        "13"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonPlus"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonMinus",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
                         "value": "TextInput::TextInputObject::Focused"
                       },
                       "parameters": [
@@ -35441,6 +36145,76 @@
                         "CameraTracker",
                         "=",
                         "-5760"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonMinus"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonMinus",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "UserData.CalendarSaves.Year[Calendar.Selected.Year].Month[Calendar.Selected.Month].Day[Calendar.Selected.Day].Sleep",
+                        "-",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Visible"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonPlus"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ButtonStates::ButtonFSM::IsClicked"
+                      },
+                      "parameters": [
+                        "SleepHoursButtonPlus",
+                        "ButtonFSM",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "UserData.CalendarSaves.Year[Calendar.Selected.Year].Month[Calendar.Selected.Month].Day[Calendar.Selected.Day].Sleep",
+                        "+",
+                        "1"
                       ]
                     }
                   ]
@@ -40484,7 +41258,7 @@
           "isLocked": false,
           "name": "EditDayUI",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         },
@@ -40607,7 +41381,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.1816906597848759,
+        "zoomFactor": 0.36458333333336135,
         "windowMask": false
       },
       "objectsGroups": [
@@ -40738,6 +41512,9 @@
             },
             {
               "name": "EyeIcon"
+            },
+            {
+              "name": "LoadIcon"
             }
           ]
         },
@@ -41595,6 +42372,23 @@
           "x": 0,
           "y": 44,
           "zOrder": 119,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 404,
+          "keepRatio": true,
+          "layer": "LoafingIcon",
+          "name": "LoadIcon",
+          "persistentUuid": "7340e413-83f7-4d4d-a6c4-d83109580607",
+          "width": 404,
+          "x": 331,
+          "y": 737,
+          "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45144,6 +45938,1151 @@
             "characterSize": 40,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "LoadIcon",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.03333333333333333,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0001_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0002_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0003_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0004_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0005_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0006_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0007_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0008_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0009_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0010_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0011_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0012_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0013_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0014_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0015_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0016_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0017_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0018_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0019_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0020_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0021_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0022_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0023_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0024_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0025_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0026_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0027_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0028_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0029_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0030_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Assets\\UI\\LoadingAnimation\\0031_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 44,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 3
+                          },
+                          {
+                            "x": 127,
+                            "y": 44
+                          },
+                          {
+                            "x": 44,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -45187,6 +47126,9 @@
               },
               {
                 "objectName": "MusicIcon"
+              },
+              {
+                "objectName": "LoadIcon"
               },
               {
                 "objectName": "MusicButton0"
@@ -45501,6 +47443,26 @@
                     "Opacity",
                     "=",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "LoadIcon",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"LoafingIcon\""
                   ]
                 }
               ],
@@ -46486,11 +48448,6 @@
                       ]
                     }
                   ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": []
                 }
               ],
               "parameters": []
@@ -46723,7 +48680,7 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "2"
+                        "1"
                       ]
                     },
                     {
@@ -46758,13 +48715,6 @@
                         "100",
                         "2"
                       ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": []
                     }
                   ]
                 },
@@ -46809,7 +48759,7 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "2"
+                        "1"
                       ]
                     },
                     {
@@ -46888,7 +48838,7 @@
                         "value": "Wait"
                       },
                       "parameters": [
-                        "2"
+                        "1"
                       ]
                     },
                     {
@@ -46960,6 +48910,34 @@
                         "0.4",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "LoadIcon",
+                        "Tween",
+                        "\"HideLoad\"",
+                        "0",
+                        "\"linear\"",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "BlackTransition",
+                        "Tween",
+                        "\"HideLoadaaa\"",
+                        "0",
+                        "\"linear\"",
+                        "0.5",
+                        ""
+                      ]
                     }
                   ]
                 },
@@ -46975,27 +48953,163 @@
                         "!=",
                         "0"
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                      },
-                      "parameters": [
-                        "MusicIcon",
-                        "Tween",
-                        "\"ShowNotes\"",
-                        "255",
-                        "\"linear\"",
-                        "0.4",
-                        ""
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "MusicPlaying"
+                          },
+                          "parameters": [
+                            "",
+                            "10"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "LoadIcon",
+                            "Tween",
+                            "\"ShowLoad\"",
+                            "255",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "BlackTransition",
+                            "Tween",
+                            "\"ShowLoadaaa\"",
+                            "100",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PreloadMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Assets\\Sounds\\beautiful-morning-with-birds-chanting-208999.mp3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PreloadMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Assets\\Sounds\\river_flowing-water_nature-sound-146833.mp3"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PreloadMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Assets\\Sounds\\uplifting-pad-texture-113842.mp3"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "MusicIcon",
+                            "Tween",
+                            "\"ShowNotes\"",
+                            "255",
+                            "\"linear\"",
+                            "0.4",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "MusicPlaying"
+                          },
+                          "parameters": [
+                            "",
+                            "10"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "LoadIcon",
+                            "Tween",
+                            "\"HideLoad\"",
+                            "0",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                          },
+                          "parameters": [
+                            "BlackTransition",
+                            "Tween",
+                            "\"HideLoadaaa\"",
+                            "0",
+                            "\"linear\"",
+                            "0.5",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -47407,6 +49521,23 @@
           "name": "Transition",
           "renderingType": "",
           "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "LoafingIcon",
+          "renderingType": "",
+          "visibility": false,
           "cameras": [],
           "effects": []
         }

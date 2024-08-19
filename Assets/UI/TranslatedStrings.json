@@ -190,5 +190,9 @@
     "ResourcesLinks": {
         "En": "https://www.mentalhealth.org.uk/explore-mental-health/publications/our-best-mental-health-tips",
         "It": "https://www.my-personaltrainer.it/salute/salute-mentale-perche-e-importante.html"
+    },
+    "SleepHours": {
+        "En": "Sleep hours",
+        "It": "Ore di sonno"
     }
 }
